@@ -9,7 +9,7 @@ step(limit, x);
 ```
 
 #### Smoothstep
-Like step but take two interpolates between two values. 
+Like step but interpolates between two values. 
 ```glsl
 smoothstep(lowerLimit, upperLimit, x);
 ```
