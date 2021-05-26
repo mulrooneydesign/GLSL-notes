@@ -18,7 +18,7 @@ clamp(x, min, max);
 #### Length
 Returns the length of a vector
 ```glsl
-length(vector)
+length(vector);
 ```
 
 #### Step
