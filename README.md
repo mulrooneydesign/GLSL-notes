@@ -2,6 +2,13 @@
 
 ## Common Functions
 
+#### Clamp
+Contrains a value between two limits. Normalize a value between 0.0 and 1.0 for example.
+Clamp can take floats or vectors or other types but they must all be of the same type. 
+```glsl
+clamp(x, min, max);
+```
+
 #### Length
 Returns the length of a vector
 ```glsl
