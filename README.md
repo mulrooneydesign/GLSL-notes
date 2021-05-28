@@ -3,7 +3,7 @@
 ## Common Functions
 
 #### Abs
-Returns the absolute value of a parameter
+Returns the absolute value of a parameter. Returns 1 for -1. Absolute values are the same value but not negative.
 ```glsl
 abs(x, min, max);
 ```
