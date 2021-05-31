@@ -15,6 +15,14 @@ Clamp can take floats or vectors or other types but they must all be of the same
 clamp(x, min, max);
 ```
 
+#### Dot Product
+dot returns the dot product of two vectors, a and b. i.e., ax × bx + ay × by.
+Returns a scalar.
+```glsl
+dot(a, b);
+```
+When two vectors are at right angles to each other the dot product is zero.
+
 #### Length
 Returns the length of a vector
 ```glsl
