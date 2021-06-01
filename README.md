@@ -41,5 +41,11 @@ Like step but interpolates between two values.
 smoothstep(lowerLimit, upperLimit, x);
 ```
 
+#### Mix
+mix — linearly interpolate between two values
+```glsl
+mix(colorA, colorB, strength);
+```
+
 ## General GLSL Notes
 "fragCoord", "fragment coordinate" is an input variable telling us at which pixel we are on the screen. The coordinate center is the left bottom corner. (0,0)
